@@ -1,0 +1,27 @@
+{
+  "name": "website",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "jackvalinsky.com",
+  "main": "index.js",
+  "scripts": {
+    "build": "./build.sh",
+    "clean": "rm -rf public/",
+    "watch": "postcss src/css/tailwind.css -o public/css/tailwind.css --watch",
+    "preview": "serve public",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -b master -d public"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^1.3.0",
+    "autoprefixer": "^9.7.2",
+    "cssnano": "^4.1.10",
+    "gh-pages": "^2.1.1",
+    "postcss-cli": "^6.1.3",
+    "serve": "^11.2.0",
+    "tailwindcss": "^1.1.3",
+    "tailwindcss-animations": "^1.0.0",
+    "tailwindcss-transforms": "^2.2.0"
+  }
+}

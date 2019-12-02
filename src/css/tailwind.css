@@ -1,0 +1,30 @@
+  /* purgecss start ignore */
+@tailwind base;
+@tailwind components;
+
+
+.bg-style {
+  @apply bg-local bg-cover bg-top;
+  background-image: url(/img/background-roc.jpg);
+}
+
+ul {
+    margin: 0;
+  }
+  ul.dashed {
+    list-style-type: none;
+  }
+  ul.dashed > li {
+    text-indent: -5px;
+  }
+  ul.dashed > li:before {
+    content: "- ";
+    text-indent: -5px;
+  }
+
+.font-style {
+    @apply text-gray-800;
+    font-family: 'Coming Soon', cursive;
+}
+/* purgecss end ignore */
+@tailwind utilities;
