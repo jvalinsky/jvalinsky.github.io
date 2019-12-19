@@ -9,34 +9,34 @@
     <link rel="stylesheet" href="/css/tailwind.css">
     <link href="https://fonts.googleapis.com/css?family=Coming+Soon&display=swap" rel="stylesheet">
 </head>
-<body class="bg-style flex flex-col h-full">
-    <div class="container  mx-auto py-5"></div>
-    <div class="container max-w-lg p-5 flex items-center mx-auto py-5">
-        <div class="bg-gray-100 shadow-lg rounded-sm overflow-hidden hover:animation-float hover:shadow-xl">
-            <div class="h-card p-5 pb-2 object-cover object-center">
+<body class="bg-style flex flex-col justify-between h-full">
+    <div class="py-3 lg:py-5"></div>
+    <div class="flex-none px-5 container max-w-lg items-center mx-auto">
+        <div class="h-card p-5 pb-2 bg-gray-100 shadow-lg rounded-sm overflow-hidden hover:animation-float hover:shadow-xl">
+            <div class="object-cover object-center">
                 <img class="u-photo" src="/img/profile1.jpg" alt="black and white picture of Jack Valinsky">
-                <a class="p-name u-url" style="display: none;" href="https://jackvalinsky.com">Jack Valinsky</a>
-                <p class="p-note" style="display: none;">B.S. in C.S. w/ minor in Linguistics: Dec. 2019 (Exp.). Currently looking for a software engineering role.</p>
             </div>
-            <div class="p-4 pt-1">
-                <h4 class="font-style font-bold text-xl text-center leading-tight truncate">Jack Valinsky</h4>
-                <div class="m-4 ml-5 mr-5 font-style font-semibold">
-                    <ul class="list-disc dashed">
-                        <li>B.S. in C.S. w/ minor in Linguistics: Dec. 2019 (Exp.)</li>
-                        <li>Currently looking for a software engineering role.</li>
+            <div class="flex flex-col justify-around">
+                <h4 class="py-2 p-name font-polaroid font-bold text-xl text-center flex-initial">Jack Valinsky</h4>
+                <div class="py-4 font-polaroid font-semibold text-sm sm:text-lg ml-1 mr-1 sm:ml-2 sm:mr-2">
+                    <ul class="list-disc dashed whitespace-no-wrap">
+                        <li class="p-note">B.S. in C.S. w/ minor in Linguistics</li>
+                        <li>Looking for software engineering roles</li>
                     </ul>
                 </div>
-                <div class="font-style text-center flex flex-row flex-wrap">
-                    <a href="/pdf/jack_valinsky_resume.pdf" class="inline-block flex-grow py-3 text-sm  uppercase no-underline tracking-wider font-semibold sm:text-base hover:underline focus:border-red-500 active:border-red-100 visited:text-gray-600">Resume</a>
-                    <a href="https://github.com/jvalinsky" class="inline-block  flex-grow py-3 text-sm  uppercase no-underline tracking-wider font-semibold sm:text-base hover:underline visited:text-gray-600">Code</a>
-                    <a href="https://linkedin.com/in/jack-valinsky" class="inline-block  flex-grow px-3 py-3 text-sm  uppercase no-underline tracking-wider font-semibold sm:text-base hover:underline visited:text-gray-600">LinkedIn</a>
-                    <a href="https://www.flickr.com/photos/jackvalinsky/" class="inline-block flex-grow py-3 text-sm  uppercase no-underline tracking-wider font-semibold sm:text-base hover:underline visited:text-gray-600">Photos</a>
+                <div class="py-2">
+                    <div class="font-polaroid text-center flex flex-row flex-wrap justify-around">
+                        <a href="/pdf/jack_valinsky_resume.pdf" class="my-link no-underline hover:underline focus:border-red-500 active:border-red-100 visited:text-gray-600">Resume</a>
+                        <a href="https://github.com/jvalinsky" class="my-link no-underline hover:underline focus:border-red-500 active:border-red-100 visited:text-gray-600">Code</a>
+                        <a href="https://linkedin.com/in/jack-valinsky" class="my-link no-underline hover:underline focus:border-red-500 active:border-red-100 visited:text-gray-600">LinkedIn</a>
+                        <a href="https://www.flickr.com/photos/jackvalinsky/" class="my-link no-underline hover:underline focus:border-red-500 active:border-red-100  visited:text-gray-600">Photos</a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="flex-grow"></div>
-    <footer class="w-full text-center p-4 text-gray-100 text-md">
+    <footer class="flex-none w-full text-center text-gray-100 text-md pb-2">
         Copyright &copy; 2019 Jack Valinsky
     </footer>
 </body>

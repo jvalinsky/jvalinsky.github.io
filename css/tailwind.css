@@ -680,9 +680,16 @@ ul.dashed > li:before {
   text-indent: -5px;
 }
 
-.font-style {
+.font-polaroid {
   color: #2d3748;
   font-family: 'Coming Soon', cursive;
+}
+
+.my-link {
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 600;
 }
 
 /* purgecss end ignore */
@@ -11129,6 +11136,18 @@ ul.dashed > li:before {
 }
 
 .hover\:no-underline:hover {
+  text-decoration: none;
+}
+
+.active\:underline:active {
+  text-decoration: underline;
+}
+
+.active\:line-through:active {
+  text-decoration: line-through;
+}
+
+.active\:no-underline:active {
   text-decoration: none;
 }
 
@@ -22461,6 +22480,18 @@ ul.dashed > li:before {
   }
 
   .sm\:hover\:no-underline:hover {
+    text-decoration: none;
+  }
+
+  .sm\:active\:underline:active {
+    text-decoration: underline;
+  }
+
+  .sm\:active\:line-through:active {
+    text-decoration: line-through;
+  }
+
+  .sm\:active\:no-underline:active {
     text-decoration: none;
   }
 
@@ -33797,6 +33828,18 @@ ul.dashed > li:before {
     text-decoration: none;
   }
 
+  .md\:active\:underline:active {
+    text-decoration: underline;
+  }
+
+  .md\:active\:line-through:active {
+    text-decoration: line-through;
+  }
+
+  .md\:active\:no-underline:active {
+    text-decoration: none;
+  }
+
   .md\:focus\:underline:focus {
     text-decoration: underline;
   }
@@ -45130,6 +45173,18 @@ ul.dashed > li:before {
     text-decoration: none;
   }
 
+  .lg\:active\:underline:active {
+    text-decoration: underline;
+  }
+
+  .lg\:active\:line-through:active {
+    text-decoration: line-through;
+  }
+
+  .lg\:active\:no-underline:active {
+    text-decoration: none;
+  }
+
   .lg\:focus\:underline:focus {
     text-decoration: underline;
   }
@@ -56460,6 +56515,18 @@ ul.dashed > li:before {
   }
 
   .xl\:hover\:no-underline:hover {
+    text-decoration: none;
+  }
+
+  .xl\:active\:underline:active {
+    text-decoration: underline;
+  }
+
+  .xl\:active\:line-through:active {
+    text-decoration: line-through;
+  }
+
+  .xl\:active\:no-underline:active {
     text-decoration: none;
   }
 
