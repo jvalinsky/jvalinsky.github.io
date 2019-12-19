@@ -27,7 +27,7 @@ ul {
     font-family: 'Coming Soon', cursive;
 }
 
-.my-link {
+.polaroid-link {
   @apply inline-block uppercase tracking-wider font-semibold;
 }
 
