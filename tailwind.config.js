@@ -72,6 +72,7 @@ module.exports = {
     borderStyle: ['responsive', 'active', 'focus'],
     borderColor: ['responsive', 'active', 'focus'],
     textColor: ['responsive', 'visited'],
+    textDecoration: ['responsive', 'hover', 'active', 'focus'],
   },
   plugins: [
     require('tailwindcss-transforms')({
