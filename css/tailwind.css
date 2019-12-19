@@ -685,7 +685,7 @@ ul.dashed > li:before {
   font-family: 'Coming Soon', cursive;
 }
 
-.my-link {
+.polaroid-link {
   display: inline-block;
   text-transform: uppercase;
   letter-spacing: 0.05em;
